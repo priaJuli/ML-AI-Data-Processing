@@ -9,12 +9,10 @@ df = california.frame
 
 
 pages = {
-    "Main Dashboard": [
-    st.Page("one/test.py", title="Main Projects"),
-    st.Page("one/dua.py", title="Page two")
-    ],
-    "Penguin": [
-        st.Page("penguin/main-app.py", title="Penguin Dataset"),
+    "Main Dashboard": [st.Page("test.py", title="Main Projects"),
+    st.Page("dua.py", title="Page two")],
+    "Pages": [
+        st.Page("dua.py", title="Manage your account"),
     ],
 
 }
